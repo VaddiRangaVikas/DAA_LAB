@@ -1,0 +1,43 @@
+EXPERIMENT 7 - BEGINNER FACE RECOGNITION IN C
+Sample Execution / Observation Output
+
+========================================
+ BEGINNER FACE RECOGNITION IN C
+========================================
+1. Register a face
+2. Recognize a face
+3. List registered people
+4. Clear face database
+5. Exit
+
+Register:
+Enter a name (one word): Ravi
+Enter the PGM face-image filename: ravi.pgm
+Face registered successfully for Ravi.
+
+List registered people:
+1. Ravi
+
+Recognize:
+Enter the PGM image to recognize: ravi.pgm
+Compared with Ravi            : difference = 0.00
+
+Best comparison: Ravi
+Average pixel difference: 0.00
+Simple similarity score: 100.0%
+RESULT: Face recognized as Ravi
+
+Unrelated image test:
+Compared with Ravi            : difference = 75.20
+
+Best comparison: Ravi
+Average pixel difference: 75.20
+Simple similarity score: 70.5%
+RESULT: Unknown face
+
+Exit:
+Program ended.
+
+Result:
+Registered faces were matched using minimum Mean Absolute Difference (MAD),
+and an unrelated test pattern was rejected using the threshold rule.

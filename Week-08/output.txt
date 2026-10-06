@@ -1,0 +1,64 @@
+EXPERIMENT 8 - BEGINNER IMAGE PROCESSING IN C
+Sample Execution / Observation Output
+
+=============================================
+ BEGINNER IMAGE PROCESSING IN C
+=============================================
+Enter the input PGM file name: sample.pgm
+Image loaded successfully!
+
+Image information
+Width : 3 pixels
+Height : 2 pixels
+Maximum gray: 255
+Total pixels: 6
+
+Choose an operation:
+1. Create negative image
+2. Change brightness
+3. Convert to black and white (threshold)
+4. Flip horizontally
+5. Blur image
+6. Detect edges
+7. Show image information
+0. Exit
+
+Operation 1:
+Done! Output saved as negative.pgm
+
+Operation 2:
+Enter brightness amount (-255 to 255): 40
+Done! Output saved as brightness.pgm
+
+Operation 3:
+Enter threshold (0 to 255): 150
+Done! Output saved as threshold.pgm
+
+Operation 4:
+Done! Output saved as horizontal_flip.pgm
+
+Operation 5:
+Done! Output saved as blur.pgm
+
+Operation 6:
+Done! Output saved as edge.pgm
+
+Operation 7:
+Image information
+Width : 3 pixels
+Height : 2 pixels
+Maximum gray: 255
+Total pixels: 6
+
+Operation 0:
+Program closed. Goodbye!
+
+Worked pixel checks from the manual:
+Negative: input 60 -> output 195
+Brightness +40: input 60 -> output 100
+Threshold 150: 60 -> 0, 200 -> 255
+Horizontal flip: [A B C] -> [C B A]
+
+Result:
+Negative, Brightness, Threshold, Horizontal Flip, Blur and Edge Detection
+operations were executed successfully.

@@ -1,0 +1,55 @@
+EXPERIMENT 3 - STUDENT FEE MANAGEMENT SYSTEM
+Sample Execution / Observation Output
+
+Initial records: 0
+
+ADD NEW STUDENT FEE RECORD
+Student ID: S101
+Student Name: Ravi
+Branch / Section: CSE
+Year / Class: 2
+Scholarship Status: Scholarship
+
+Tuition Fee: 20000
+Hostel Fee: 8000
+Mess Fee: 7000
+Exam Fee: 3000
+Other Fee: 2000
+Amount Already Paid: 30000
+
+Student fee record added successfully.
+Record saved automatically.
+
+STUDENT FEE DETAILS
+Student ID : S101
+Student Name : Ravi
+Branch / Section : CSE
+Year / Class : 2
+Scholarship Status : Scholarship
+Total Fee : Rs. 40000.00
+Paid Fee : Rs. 30000.00
+Pending Fee : Rs. 10000.00
+Fee Status : PENDING
+
+UPDATE
+Additional payment amount: 10000
+Payment added successfully.
+
+Total Fee : Rs. 40000.00
+Paid Fee : Rs. 40000.00
+Pending Fee : Rs. 0.00
+Fee Status : FULLY PAID
+
+SORT BY PENDING FEE
+Records sorted successfully.
+
+DELETE
+Student ID: S101
+Delete confirmed.
+Student record deleted successfully.
+
+Records saved successfully into 'students_fee_records.csv'.
+
+Result:
+Student Fee Management System executed successfully.
+Add, search, update, delete, filtering, sorting and CSV storage were verified.

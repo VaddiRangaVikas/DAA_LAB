@@ -1,0 +1,32 @@
+EXPERIMENT 6 - PEOPLE COUNTING IN AN IMAGE USING CONNECTED COMPONENTS
+Sample Execution / Observation Output
+
+Input image: people.pgm
+Threshold: 120
+Minimum accepted component area: 120
+
+Thresholding:
+Dark pixels (< 120) -> foreground
+Light pixels (>= 120) -> background
+
+Connected components found:
+
+Component 1
+Area = 622
+Bounding box = accepted
+
+Component 2
+Area = 35
+Bounding box = rejected as noise
+
+Component 3
+Area = 772
+Bounding box = accepted
+
+People counted = 2
+
+Output image saved with bounding boxes around accepted components.
+
+Result:
+People counting using thresholding and 8-neighbour flood fill was executed successfully.
+Small components were rejected as noise and the two large components were counted as people.

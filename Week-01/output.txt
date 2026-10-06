@@ -1,0 +1,50 @@
+EXPERIMENT 1 - GUI-BASED STUDENT DATABASE MANAGEMENT SYSTEM
+Sample Execution / Observation Output
+
+Default login:
+Username: admin
+Password: admin123
+
+Login:
+Username entered: admin
+Password entered: admin123
+Login successful.
+Dashboard window opened.
+
+Add Student:
+Student ID: 101
+Name: Ravi
+Branch: CSE
+Year: 2
+Scholarship: Scholarship
+Total Fee: 40000
+Paid Fee: 30000
+
+Student record added successfully.
+
+Search by ID: 101
+Student ID: 101
+Name: Ravi
+Branch: CSE
+Year: 2
+Scholarship: Scholarship
+Total Fee: 40000.00
+Paid Fee: 30000.00
+Pending Fee: 10000.00
+
+Update:
+Paid Fee changed to: 40000
+Student record updated successfully.
+Pending Fee: 0.00
+
+Delete:
+Student ID: 101
+Delete confirmed.
+Student record deleted successfully.
+
+Wrong login test:
+Invalid username or password.
+
+Result:
+GUI-based Student Database Management System executed successfully.
+CRUD operations and SQLite storage were verified.

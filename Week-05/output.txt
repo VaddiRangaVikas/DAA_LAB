@@ -1,0 +1,33 @@
+EXPERIMENT 5 - SHORTEST ROUTE USING DIJKSTRA'S ALGORITHM
+Sample Execution / Observation Output
+
+Input:
+Number of vertices: 5
+
+Adjacency matrix:
+0  3  0  0  0
+3  0  2  0  0
+0  2  0  1  0
+0  0  1  0  3
+0  0  0  3  0
+
+Source vertex: A (0)
+
+Shortest routes from vertex A:
+------------------------------------------------------
+Destination    Distance    Route
+------------------------------------------------------
+A              0           A
+B              3           A -> B
+C              5           A -> B -> C
+D              6           A -> B -> C -> D
+E              9           A -> B -> C -> D -> E
+------------------------------------------------------
+
+Additional test:
+Negative edge weight entered
+Output:
+Negative edge weights are not allowed in Dijkstra's algorithm.
+
+Result:
+Dijkstra's algorithm executed successfully and shortest distances/routes were verified.

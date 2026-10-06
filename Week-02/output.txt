@@ -1,0 +1,31 @@
+EXPERIMENT 2 - GUI-BASED STUDENT INFORMATION SEARCH
+Sample Execution / Observation Output
+
+Input Student ID: 103
+
+Linear search:
+101 == 103 -> False
+102 == 103 -> False
+103 == 103 -> True
+
+STUDENT FOUND
+
+ID : 103
+Name : Anjali
+Branch : CSE
+Year : 2
+Hostel : Krishna Hostel
+Fee Due : Rs. 5000.00
+
+Test with ID: 999
+STUDENT NOT FOUND
+
+Test with empty input:
+Please enter a Student ID.
+
+Test with input: 10a
+Invalid ID. Enter numbers only.
+
+Result:
+GUI-based Student Information Search Application executed successfully.
+Linear search correctly found existing records and reported missing records.
